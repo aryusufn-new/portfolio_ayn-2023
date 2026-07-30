@@ -26,15 +26,15 @@ const Hero = () => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "IT Support",
+                "MTCNA Certified",
                 2000,
                 "Network Engineer",
                 2000,
                 "Entrepreneur",
                 2000,
-                "Junior Web Developer",
+                "Network Automation Engineer",
                 2000,
-                "Drone Pilot",
+                "n8n",
                 2000,
                 "",
               ]}
@@ -47,7 +47,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Informatics Management at Politeknik Negeri Malang | MTCNA Certified.
+              MTCNA Certified | NOC & Network Automation Engineer | MikroTik · n8n · GenieACS · PHP · JavaScript
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">

@@ -37,7 +37,7 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  IP Core Officer - Project Based
+                  NOC project
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   PT Dutakom Wibawa Putra
@@ -46,7 +46,12 @@ const Resume = () => {
                   Agustus 2025 - Now
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  -Project Dwifi.id<br></br>
+                  -RnD PPPoE Server menggunakan Accel-PPP di VM maupun Bare-metal<br></br>
+                  -Integrasi MikroTik client ke sistem billing berbasis RADIUS & troubleshooting<br></br>
+                  -RnD pengiriman data Accounting RADIUS ke endpoint aplikasi billing via script MikroTik<br></br>
+                  -Pemanfaatan MikroTik API untuk otomasi dan manajemen jaringan<br></br>
+                  -RnD script MikroTik untuk instalasi dan aktivasi fitur Container<br></br>
+                  -Setup & konfigurasi PPPoE Server dan Hotspot Server pada MikroTik<br></br>
                 </p>
               </div>
             </div>
@@ -61,7 +66,7 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Provisioning / NOC
+                  Provisioning NOC
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   PT Sumber Data Indonesia
@@ -70,9 +75,13 @@ const Resume = () => {
                   Maret 2024 - Juli 2025
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  -Aktivasi dan maintenance layanan internet pelanggan retail & corporate (OLT ZTE, Switch Extreme).<br></br>
-                  -Troubleshooting & konfigurasi Mikrotik, ONT ZTE/Huawei, OLT ZTE, AP Ruijie & Ubiquiti. <br></br>
-                  -Monitoring jaringan via NMS (The Dude, Cacti).<br></br>
+                  -Penanganan tiket gangguan jaringan dari Customer Service & koordinasi dengan vendor<br></br>
+                  -Aktivasi pelanggan retail & corporate via OLT ZTE dan Switch Extreme<br></br>
+                  -Troubleshooting & konfigurasi perangkat (MikroTik, ONT ZTE/Huawei, OLT, Switch Extreme)<br></br>
+                  -Konfigurasi Access Point Ruijie Cloud dan Ubiquiti<br></br>
+                  -Monitoring jaringan pelanggan via NMS (The Dude, Cacti)<br></br>
+                  -Instalasi NVR & CCTV Hikvision<br></br>
+                  -Pembuatan laporan harian, mingguan, dan bulanan maintenance pelanggan<br></br>
                 </p>
               </div>
             </div>
@@ -96,9 +105,9 @@ const Resume = () => {
                   June 2022 - Agustus 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  -Merancang dan membangun sebuah web profil Dinas Perhubungan Kabupaten Kediri.<br></br>
-                  -Instalasi Router di ruang magang pada Dinas Perhubungan Kabupaten Kediri. <br></br>
-                  -Entri Data.<br></br>
+                  -Membangun website profil resmi Dinas Perhubungan Kabupaten Kediri (masih aktif digunakan)
+                  -Instalasi & konfigurasi router di lingkungan kantor<br></br>
+                  -Entri data administratif<br></br>
                   {/* -Menganalisa program yang tidak sesuai dengan prosedur.<br></br>
                   -Mengumpulkan data yang diperlukan untuk membangun sistem informasi.<br></br> */}
                 </p>
@@ -163,29 +172,6 @@ const Resume = () => {
               </div>
             </div>
             <br></br>
-            <div className=" relative">
-              {/* design */}
-              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-              </div>
-              {/* design */}
-              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  MIPA
-                </h1>
-                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  SMAN 5 TARUNA BRAWIJAYA JAWA TIMUR
-                </span>
-                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2017 - Year 2020
-                </span>
-                <p className=" text-[.9rem] text-justify text-gray-500">
-                  Nilai Rata - rata 86,33
-                </p>
-              </div>
-            </div>
           </fieldset>
         </div>
         <div className="right flex-1 flex items-center justify-center">
@@ -226,7 +212,7 @@ const Resume = () => {
                   24 Februari 2023 - Now
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  lebih dari 500 user mulai dari WO, Organisasi, Instansi, Fotografer dll.
+                  lebih dari 1000 user mulai dari WO, Organisasi, Instansi, Fotografer dll.
                 </p>
               </div>
             </div>
@@ -261,7 +247,7 @@ const Resume = () => {
                   24 Februari 2021 - Now
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  -Penyedia Internet di desa.<br></br>
+                  -Pengelola jaringan internet lokal sebagai mitra ISP. Mengimplementasikan solusi network automation berbasis n8n, GenieACS, dan MikroTik API."<br></br>
                   -Mitra / Subnet PT Jaringan Lintas Utara.<br></br>
                 </p>
               </div>

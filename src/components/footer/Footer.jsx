@@ -40,10 +40,10 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2024 Made By </span> AYN
+          | Copyright &copy; <span>2026 Made By </span> AYN
           <a href="#"></a> | 
           <br></br>
-          <center> [ updatedAt 19-01-2024 ]  </center>
+          <center> [ updatedAt 28-07-2026 ]  </center>
         </div>              
       </div>
     </div>
